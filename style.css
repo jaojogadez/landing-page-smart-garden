@@ -7,6 +7,9 @@
     --highlight-color: #388E3C; /* Verde Escuro para Destaque */
 }
 
+#btn-nav{
+    background-color: var(--highlight-color);
+}
 
 .bg-primary {
     background-color: var(--primary-background); 
@@ -53,6 +56,7 @@ p {
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
 }
 
 /* Navbar*/
@@ -138,7 +142,9 @@ html {
 }
 
 
-
+#about .text-secondary-800{
+    text-align: justify;
+}
 
 /*Aba benefícios*/
 .benefit-box {
@@ -147,6 +153,8 @@ html {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     transition: .4s ease !important;
+    cursor: pointer;
+    margin: 10px 0;
 }
 
 .benefit-box:hover {
@@ -162,6 +170,7 @@ html {
 #components .img-fluid {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
 }
 
 
@@ -322,4 +331,11 @@ footer a:hover {
 .reference-card .btn-outline-primary:hover {
     background-color: #4CAF50;
     color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    #components .col-md-9{
+        text-align: center !important;
+        margin: 10px 0;
+    }
 }

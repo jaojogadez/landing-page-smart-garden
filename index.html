@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Smart Garden</title>
-
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- AOS (Animate On Scroll) CSS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
 
 </head>
 
 <body>
 
    
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top" data-bs-theme="dark">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center text-white" href="#">
                 <img src="img/logo.png" alt="Logo" class="me-2" style="width: 40px; height: 40px;">
                 Smart Garden
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" id="btn-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" data-bs-theme="dark">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -76,8 +75,8 @@
         </div>
 
         <div class="hero-content">
-            <h1 class="display-4 text-white" data-aos="fade-up">Smart Garden</h1>
-            <p class="lead" data-aos="fade-up" data-aos-delay="200">Controle inteligente para o seu jardim</p>
+            <h1 class="display-1 text-white fw-normal" data-aos="fade-up">Smart Garden</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="200">Controle inteligente para o seu jardim.</p>
             <a href="#about" class="btn btn-saiba-mais mt-4" data-aos="fade-up" data-aos-delay="400">Saiba Mais</a>
         </div>
     </section>
@@ -86,7 +85,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6" data-aos="fade-right">
-                    <img src="/img/sobre.png" class="img-fluid " alt="Smart Garden">
+                    <img src="/img/sobre.png" class="img-fluid rounded-3" alt="Smart Garden">
                 </div>
                 <div class="col-md-6" data-aos="fade-left">
                     <h2 class=" text-highlight">Sobre o Projeto</h2>
@@ -113,7 +112,7 @@
                     <div class="benefit-box">
                         <i class="bi bi-chat-dots-fill" style="font-size: 3rem; color: #388E3C;"></i> 
                         <h5 class="mt-3 text-highlight">Feedback em tempo real</h5>
-                        <p class="text-dark-gray">O display LCD mostra a umidade do solo e o status da irrigação em tempo real, permitindo que o usuário acompanhe facilmente as condições do solo</p>
+                        <p class="text-dark-gray">O display LCD mostra a umidade do solo e o status da irrigação em tempo real, permitindo que o usuário acompanhe facilmente as condições do solo.</p>
                     </div>
                 </div>
           
